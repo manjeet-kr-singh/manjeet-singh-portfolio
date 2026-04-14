@@ -148,7 +148,7 @@ $(document).ready(function () {
         };
 
         $.ajax({
-            url: '/ManjeetSinghPortfolio/api/contact',
+            url: '/api/contact',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(formData),
